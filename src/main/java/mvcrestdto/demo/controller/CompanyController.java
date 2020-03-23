@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CompanyController {
     @RequestMapping("/company")
     String companies() {
-        return "Companies";
+        return "Company";
     }
 }
